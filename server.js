@@ -25,7 +25,6 @@ var Users = []
 consign().include("Rotas").into(app, dir, io, Users)
 
 // Porta
-http.listen(8221, "192.168.15.7", function(){
+http.listen(8221, "179.113.234.133", function(){
     console.log("Servidor On-line")
-    console.log("On-line: http://192.168.15.7:8221")
 })
