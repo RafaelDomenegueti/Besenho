@@ -1,10 +1,10 @@
 // Require
 const express = require("express")
-const consign = require("consign")
+//const consign = require("consign")
 const app = express()
 const path = require("path")
 const bodyparser = require("body-parser")
-const dir = __dirname
+//const dir = __dirname
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
