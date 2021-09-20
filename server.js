@@ -58,6 +58,6 @@ io.on('connection', function(socket){
 });
 
 // Porta
-http.listen(21132, "besenho.kinghost.net", function(){
+http.listen(21132, "179.225.129.54", function(){
     console.log("Servidor On-line")
 })
