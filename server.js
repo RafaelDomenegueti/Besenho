@@ -1,10 +1,9 @@
 // Require
 const express = require("express")
-//const consign = require("consign")
 const app = express()
 const path = require("path")
 const bodyparser = require("body-parser")
-//const dir = __dirname
+const dir = __dirname
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
@@ -25,10 +24,10 @@ var Users = []
 
 // Rotas
 app.get("/", function(req, res){
-    res.sendFile("./paginas/views/index.html")
+    res.sendFile(dir + "/paginas/views/index.html")
 })
 app.get("/controle", function(req, res){
-    res.sendFile("./paginas/views/controle.html")
+    res.sendFile(dir + "/paginas/views/controle.html")
 })
 
 io.on('connection', function(socket){
@@ -59,6 +58,6 @@ io.on('connection', function(socket){
 });
 
 // Porta
-http.listen(443, "localhost", function(){
+http.listen(21132, "besenho.kinghost.net", function(){
     console.log("Servidor On-line")
 })

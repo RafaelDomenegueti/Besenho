@@ -1,6 +1,6 @@
 
 var sessioncode = makeid(10);
-var linksession = 'http://187.75.9.162:8221/controle?sessioncode=' + sessioncode
+var linksession = 'http://besenho.kinghost.net:21132/controle?sessioncode=' + sessioncode
 const canvas = document.getElementById("lousa");
 const ctx = canvas.getContext('2d');
 var socket = io();
