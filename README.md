@@ -5,7 +5,7 @@ Besenho é um projeto simples com o intuito de aperfeiçoar meus conhecimentos e
 demonstrar os poderes do WebSocket.
 
 O back-end da aplicação foi construído em Node.JS utilizando os frameworks Express e 
-Socket.IO e seu front-end usando HTML, CSS e JavaScript puro. 
+Socket.IO e seu front-end usando HTML, CSS e JavaScript. 
 
 O projeto te permite desenhar na tela de seu computador utilizando a tela de seu celular
 como mesa digitalizadora.
